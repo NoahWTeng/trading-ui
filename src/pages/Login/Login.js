@@ -18,7 +18,11 @@ import {
 export const Login = () => {
   return (
     <Container>
-      <Text>Hello</Text>
+      <Left>
+        <Text white>Hello 1</Text>
+        <Text white>Hello 2</Text>
+        <Text white>Hello 3</Text>
+      </Left>
 
       {/* <FormContainer>
             <Text poppins mb h4 line="24px" margin="30px">

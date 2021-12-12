@@ -24,6 +24,8 @@ const GlobalStyle = createGlobalStyle`
     --border-radius: 16px;
 
     --color-grey: #808191;
+    --color-white: #ffffff;
+
     --opacity: 0.6;
    
     --font-weight-re: 400;

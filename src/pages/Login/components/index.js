@@ -1,28 +1,32 @@
 import styled from 'styled-components';
 
-import imgRight from '@static/img/minh-pham-OtXADkUh3-I-unsplash.jpg';
+import backgroundLogin from '@static/img/login-background.png';
 
 export const Container = styled.div`
   display: grid;
-  grid-template-rows: auto 15em;
+  grid-template-columns: 1fr 1fr;
   height: 100vh;
+  background-image: url(${backgroundLogin});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 `;
 
 export const Logo = styled.img``;
 
 export const Left = styled.div`
-  display: grid;
-  grid-template-rows: auto 1fr;
-  gap: 20px;
-  margin: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 `;
 
-export const Right = styled.div`
-  background-image: url(${imgRight});
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-`;
+// export const Right = styled.div`
+//   background-image: url(${imgRight});
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+// `;
 
 export const Form = styled.form`
   display: flex;

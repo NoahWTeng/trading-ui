@@ -20,6 +20,7 @@ export const Text = styled.p`
     if (props.primary) return 'var(--primary)';
     if (props.secondary) return 'var(--secondary)';
     if (props.grey) return 'var(--color-grey)';
+    if (props.white) return 'var(--color-white)';
   }};
 
   padding: ${props => props.padding};

@@ -27,12 +27,12 @@ module.exports = {
     alias: {
       '@static': path.resolve(__dirname, '../src/static'),
       '@components': path.resolve(__dirname, '../src/components'),
-      '@hooks': path.resolve(__dirname, '../src/hooks'),
       '@helpers': path.resolve(__dirname, '../src/helpers'),
       '@pages': path.resolve(__dirname, '../src/pages'),
       '@services': path.resolve(__dirname, '../src/services'),
       '@styles': path.resolve(__dirname, '../src/styles'),
-      '@services': path.resolve(__dirname, '../src/services'),
+      '@layout': path.resolve(__dirname, '../src/layout'),
+      '@routes': path.resolve(__dirname, '../src/routes'),
       '@locales': path.resolve(__dirname, '../src/locales'),
       //redux
       '@constants': path.resolve(__dirname, '../src/redux/constants'),

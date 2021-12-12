@@ -1,0 +1,14 @@
+export { default as overview_white } from './overview-white.svg';
+export { default as overview } from './overview.svg';
+export { default as product_white } from './product-white.svg';
+export { default as product } from './product.svg';
+export { default as campaign_white } from './campaign-white.svg';
+export { default as campaign } from './campaign.svg';
+export { default as setting_white } from './setting-white.svg';
+export { default as setting } from './setting.svg';
+export { default as schedule_white } from './schedule-white.svg';
+export { default as schedule } from './schedule.svg';
+export { default as payment_white } from './payment-white.svg';
+export { default as payment } from './payment.svg';
+export { default as statement_white } from './statement-white.svg';
+export { default as statement } from './statement.svg';

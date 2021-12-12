@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as Redux from 'react-redux';
 import FastClick from 'fastclick'; // 延迟300ms再响应点击，目的是在移动端设备上检测用户是否在做双击
+import { GlobalStyle } from '@styles';
 
 import { store } from './redux';
 import { App } from './App';
@@ -12,6 +13,7 @@ FastClick.attach(document.body);
 
 ReactDOM.render(
   <Redux.Provider store={store}>
+    <GlobalStyle />
     <App />
   </Redux.Provider>,
   document.getElementById('root'),

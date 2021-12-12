@@ -18,10 +18,9 @@ import {
 export const Login = () => {
   return (
     <Container>
-      <Left>
-        <Logo src={logo} alt="Trading Logo" />
-        Hello
-        {/* <FormContainer>
+      <Text>Hello</Text>
+
+      {/* <FormContainer>
             <Text poppins mb h4 line="24px" margin="30px">
               Welcome!
             </Text>
@@ -34,7 +33,6 @@ export const Login = () => {
               {user.error && <ErrorMessage>*{user.error}</ErrorMessage>}
             </Form>
           </FormContainer> */}
-      </Left>
     </Container>
   );
 };

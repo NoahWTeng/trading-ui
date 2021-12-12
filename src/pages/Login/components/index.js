@@ -4,7 +4,7 @@ import imgRight from '@static/img/minh-pham-OtXADkUh3-I-unsplash.jpg';
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 15em;
   height: 100vh;
 `;
 

@@ -1,25 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import * as Redux from 'react-redux';
-import FastClick from 'fastclick'; // 延迟300ms再响应点击，目的是在移动端设备上检测用户是否在做双击
-import { GlobalStyle } from '@styles';
-
-import { store } from './redux';
-import { App } from './App';
-
-import * as serviceWorker from './registerServiceWorker';
-
-FastClick.attach(document.body);
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <Redux.Provider store={store}>
-    <GlobalStyle />
+  <React.StrictMode>
     <App />
-  </Redux.Provider>,
-  document.getElementById('root'),
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
